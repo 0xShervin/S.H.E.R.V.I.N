@@ -10,8 +10,8 @@ while True:
         r.adjust_for_ambient_noise(src, duration = 1)
         audio = r.listen(src)
 
-    print("you said: " + r.recognize_google(audio))
     text = r.recognize_google(audio)
+    print("you said: " + text)
 
     if text == "exit":
         break
