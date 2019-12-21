@@ -30,7 +30,7 @@ while True:
     print("you said: " + text + " !")
 
     if text == "exit":
-        print("BYE")
+        print("bye bye")
         break
 
     elif text == "shut down":
