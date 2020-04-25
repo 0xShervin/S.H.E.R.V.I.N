@@ -1,3 +1,3 @@
 # S.H.E.R.Y
 
-kind of a spech recognition project
+kind of a speech recognition project
